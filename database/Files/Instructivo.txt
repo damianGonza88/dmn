@@ -1,0 +1,31 @@
+AGENDA DIARIA 4.0
+ 
+Instrucciones: Este programa nos permite guardar información sobre nuestros días
+como por ejemplo el Clima, nuestras Actividades y aquellos detalles que
+Destacamos. El programa trabaja con una contraseña (de 10 caracteres máximo) de
+tipo numérica, alfabética o alfanumérica, por lo que deberás establecerla cuando 
+ingreses por primera vez, también deberás establecer el nombre de usuario, este 
+sirve para personalizar tu Agenda. La contraseña será requerida cada vez que 
+quieras usar el Programa. Las fechas deben ser ingresadas en el formato indicado 
+DD-MM-AA (Ej. 15-12-88). El programa crea una carpeta donde guarda los Registros 
+de nuestros días y la información que usa el programa. Puedes acceder a esta 
+carpeta mediante la opción ‘Abrir Carpeta de registros’ del menú ‘Opciones’. 
+Si intentamos guardar dos días con la misma fecha tendremos un error, lo mismo
+ocurrirá si buscamos una fecha que no exista. Para guardar un nuevo día debemos 
+llenar los campos FECHA, CLIMA, ACTIVIDADES DEL DIA y DESTACADO DEL DIA y luego 
+hacer click en el botón ‘AGENDAR DIA’. Para buscar un día, debemos ingresar la 
+fecha en el campo CONSULTAR DIA - FECHA y hacer click en el botón ‘BUSCAR DIA’. 
+Cada vez que agendamos o buscamos un día, se visualizara un mensaje indicando si 
+hubo un error o si se tuvo éxito en la operación. El botón ‘LIMPIAR’ Nos despeja 
+los campos de texto. Dentro del menú ‘Opciones’ encontramos la opción ‘Modificar 
+Día’ que nos permite cambiar los atributos de un registro. Para ello debes buscar 
+el día, modificar los campos y luego hacer click en el botón ‘MODIFICAR DIA’. 
+También contamos con la opción ‘Modificar Contraseña’ para cambiarla cada vez que 
+necesitemos. El botón ‘CANCELAR’ nos permite volver al menú anterior y cancelar 
+la actual operación.
+
+Creado por Damián Gonza (dmn_8899@hotmail.com)
+
+Arte grafico diseñado por Victoria Tejerina.
+
+Visual Estudio 2010 C# 

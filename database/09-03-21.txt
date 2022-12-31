@@ -1,0 +1,4 @@
+09-03-21
+Soleado y despejado todo el dia
+Me levante como a las 07:30, me sentía bastante cansado y agotado, me cambie y me fui caminando hasta la empresa por abajo, llegue y estuve charlando con Nico, me quede viendo algunas cosa para el circuito de arduino del analizador de antenas y se fue pasando la hora de a apoco. Me quede tranquilo y desayune, se paso la hora y llego Dario, charlamos los 3 y se fue pasando la hora. Yo no me sentía del todo bien, sino cansado, salimos, Dario nos llevo en la cubo, llegue a casa y me recosté, me dormi hasta pasadas las 18:30, me levante y me sentía mejor, me di un baño y estuve en la compu viendo videos y revise el analizador de antenas, descubri que no había mandado masa a la antena, lo solucione y quedo funcionando, empece a armar la caja para el analizador. Logre instalar el display y fui ordenando las demás placas soldando todo, quedo bien, se hizo tarde, cene y me recosté, vi tele hasta tarde y di vueltas hasta dormirme
+

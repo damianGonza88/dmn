@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damian</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../style.css">
+
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- icono -->
+    <link rel="shortcut icon" href="../../img/logo1.jpeg">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+
+</head>
+<body class="container">
+    <div class="row centro">
+        <a href="../../index.html"> Back</a>
+   
+        <form name="dia" class="centro col-xl-10 col-lg-10 col-sm-10 ">
+            <div class="centro">
+                <div class="enLinea">
+                    <h3 class="espaciado">Fecha:</h3>
+                    <input class="espaciado p-1" style="width: 90px" type="text" name="fecha" id="" placeholder="">
+                    <input class="boton espaciado w-25" type="button" value="Consultar" onclick="consultar();">
+                    <input class="boton espaciado w-25 " type="button" value="Limpiar" onclick="limpiar();">
+                </div>
+
+                <div class="enLinea">
+                    <input class="boton espaciadoboton" type="button" value=" < " onclick="anterior();">
+                    <textarea class="m-2 p-3 ml-2" name="date" id="" cols="30" rows="16"></textarea>
+                    <input class="boton  espaciadoboton" type="button" value=" > " onclick="siguiente();">
+                </div>
+                
+                            
+            </div>
+            <div class="enLinea mt-2  justify-content-center">
+                <!-- <marquee id="preload" style="visibility:hidden;background-color:#999999;height:22px;width:100px">| | | | | | | | | | | | | | | procesando . . .</marquee> -->
+                <input class="espaciado w-50 p-2" type="text" name="buscado" id="" placeholder="Palabra a buscar...">
+                <input class="boton espaciado w-25 " type="button" value="Buscar"  onclick="buscar();">                
+            </div>
+            <div class="enLinea mt-2  justify-content-center">
+                <input class="boton espaciado w-25 " type="button" value="Guardar"  onclick="guardar();">
+                <input class="boton espaciado w-25 " type="button" value="Ultimo Dia"  onclick="ultimaFechaAgendada();"> 
+            </div>
+            
+        </form>
+    </div>
+    
+    
+  <!-- Javascript -->
+  <script>
+    var fechas = new Array();
+  </script>
+  <script src="../../bundle.js"></script>
+  <script src="../../codigo.js"></script>
+  <script src="../../logueo.js"></script>
+ 
+
+  
+    
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+29-11-21
+Soleado y despejado todo el día
+Me levante como a las 07:30, me cambie y me fui a la empresa caminando por abajo, llegue y charlamos con Nico, estuvimos atentos  a los problemas que siguen con el Mikrotik, se fue pasando la hora  de a poco y me quede viendo videos, escuche música y llego Rodrigo, después Darío, hablamos. Hice el cambio de Mikrotik antes de irme y salí, camine a casa en una tarde hermosa y soleada, llegue y almorcé, me acosté y dormí por un par de horas, me levante y tome mates, vi videos y empecé a trabajar con una interfaz para ft8 para el cobra, logre hacer que funcione y me fui a caminar, fui hasta 9 de julio y compre algunos componentes, volvi a casa y trabaje armando la interfaz doble para tener en un solo conector la interfaz para ambos radios, termine pasadas las 1:30 y no funcionaba para el cahuane, apague todo y me acosté, rece y me dormí.
+

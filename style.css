@@ -1,0 +1,140 @@
+/* reseteo css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.7)), url('./img/fondo1.png');
+    /* background-image: url("./img/fondo1.png"); */
+    background-position: center center;
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0);
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+
+.loginBox{
+    width: 300px;
+    height: 380px;
+    background: black;
+    color: white;
+    top: 15%;
+    /* left: 50%; */
+    right: 5%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.loginBox .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+.loginBox h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.loginBox label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]{
+border: none;
+border-bottom: 1px solid white;
+background: transparent;
+outline: none;
+height: 40px;
+color: white;
+font-size: 16px;
+}
+
+.boton{
+border: none;
+outline: none;
+height: 40px;
+background: red !important;
+color: white;
+font-size: 18px;
+border-radius: 20px;
+}
+
+.imgMenu{
+    /* width: 15%; */
+    height: 20%;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+.imgMenu:hover {
+    transform: scale(1.08, 1.08);
+    transition: 0.7s;
+  }
+.imgMoments{
+    top: 15%;
+    left: 5%;
+}
+.imgMusic{
+    top: 40%;
+    left: 8%;
+}
+.imgMovie{
+    top: 65%;
+    left: 12%;
+}
+body a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.centrado{
+    position: absolute;
+}
+.centro{
+    flex-direction:column;
+    align-items: center;
+}
+textarea{
+    margin-top: 15px;
+    width: 90%;
+}
+.enLinea{
+    display: flex;
+}
+
+.espaciado{
+    margin-left: 20px !important;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.espaciadoboton{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contenedor {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 !important;
+}
